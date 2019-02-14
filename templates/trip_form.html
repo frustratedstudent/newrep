@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Enter Trip Details</h2>
+<p>You may optionally provide an image and add a comment.:</p>
+
+
+
+<form action="/add" method="post">
+  <br>Select City<br>
+	<select name="city" id="city" required>
+		<option value="Tokyo">Tokyo</option>
+		<option value="New York">New York</option>
+		<option value="Mexico City">Mexico City</option>
+		<option value="Mumbai">Mumbai</option>
+		<option value="Sao Paulo">Sao Paulo</option>
+		<option value="Delhi">Delhi</option>
+		<option value="Shanghai">Shanghai</option>
+		<option value="Kolkata">Kolkata</option>
+		<option value="Dhaka">Dhaka</option>
+		<option value="Buenos Aires">Buenos Aires</option>
+		<option value="Los Angeles">Los Angeles</option>
+		<option value="Karachi">Karachi</option>
+		<option value="Cairo">Cairo</option>
+		<option value="Rio de Janeiro">Rio de Janeiro</option>
+		<option value="Osaka">Osaka</option>
+		<option value="Beijing">Beijing</option>
+		<option value="Manila">Manila</option>
+		<option value="Moscow">Moscow</option>
+		<option value="Istanbul">Istanbul</option>
+		<option value="Paris">Paris</option>
+		<option value="Seoul">Seoul</option>
+		<option value="Lagos">Lagos</option>
+		<option value="Jakarta">Jakarta</option>
+		<option value="Guangzhou">Guangzhou</option>
+		<option value="Chicago">Chicago</option>
+		<option value="London">London</option>
+		<option value="Lima">Lima</option>
+		<option value="Tehran">Tehran</option>
+		<option value="Kinshasa">Kinshasa</option>
+		<option value="Bogota">Bogota</option>
+		<option value="Shenzhen">Shenzhen</option>
+		<option value="Wuhan">Wuhan</option>
+		<option value="Hong Kong">Hong Kong</option>
+		<option value="Tianjin">Tianjin</option>
+		<option value="Chennai">Chennai</option>
+		<option value="Taipei">Taipei</option>
+		<option value="Bangalore">Bangalore</option>
+		<option value="Bangkok">Bangkok</option>
+		<option value="Lahore">Lahore</option>
+		<option value="Chongqing">Chongqing</option>
+		<option value="Hyderabad">Hyderabad</option>
+		<option value="Miami">Miami</option>
+		<option value="Santiago">Santiago</option>
+		<option value="Dallas">Dallas</option>
+		<option value="Philadelphia">Philadelphia</option>
+		<option value="Belo Horizonte">Belo Horizonte</option>
+		<option value="Madrid">Madrid</option>
+		<option value="Houston">Houston</option>
+		<option value="Ahmedabad">Ahmedabad</option>
+		<option value="Ho Chi Minh City">Ho Chi Minh City</option>
+	</select>
+  <br><br>
+  
+  <br>Select Year<br>
+   <select name="year" required>
+	<option value=2009>2009</option>
+	<option value=2010>2010</option>
+	<option value=2011>2011</option>
+	<option value=2012>2012</option>
+	<option value=2013>2013</option>
+    <option value=2014>2014</option>
+    <option value=2015>2015</option>
+    <option value=2016>2016</option>
+    <option value=2017>2017</option>
+    <option value=2018>2018</option>
+    <option value=2019>2019</option>	
+  </select>
+ <br><br>  
+ 
+  <br>Paste Image Link Here<br>
+  <textarea name="img_link" rows="5" cols="30"></textarea>
+ <br><br>  
+ 
+ <br>Add a Comment<br>
+  <textarea name="comment" rows="5" cols="30"></textarea>
+ <br><br>
+
+ <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
